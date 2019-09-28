@@ -1,0 +1,56 @@
+* { box-sizing: border-box; }
+body {
+    background-color: #666A6D;
+}
+.box {
+    width: 1200px;
+    height:750px;
+    background-color: #c28a99;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    padding: 50px;
+    background-size: 100%;
+    position: absolute;
+    overflow: hidden;
+  }
+
+h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.obsah {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.kontakt {
+    text-align: center;
+}
+ 
+}
+a:link{
+    color:#4c6389; 
+} /* nenavštívený */
+
+a:visited{
+    color:#666A6D;
+} /* navštívený */
+
+a:hover{
+    color: #4682b4;
+} /* najetí myší */
+
+img {
+    float: left;
+    padding: 25px;
+    padding-left: 0px;
+}
